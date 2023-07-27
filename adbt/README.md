@@ -312,9 +312,15 @@ Now, the header file has 2 dynamic properties, `title`, `description`. They pull
 
 ### 🔮 Variables
 
+---
+
 ### 💡 Examples
 
-#### Code in Actions
+---
+
+#### Code in Action
+
+---
 
 ### 💻 Development
 
@@ -332,6 +338,8 @@ The development of `ADBT` and its complementary meta files is available for Visu
 - snippets,
 - meta files `*.adbt.meta` support, relies on built-in JSON support:
   - autocomplete (Intellisense),
-  - hover info.
+  - hover info
+
+---
 
 ### 🧬 Related
