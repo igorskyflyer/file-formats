@@ -28,3 +28,45 @@
 - filter files can be included multiple times,
 - export statement **must** be the last statement of the file
   - only 1 export statement is allowed per template file.
+
+<br>
+<br>
+
+### 📰 Parsing
+
+Parsing and tokenization occur simultaneously in 1 step, line-by-line.
+Parser will log its steps and progress (needs to enabled in the `Aria` compiler via a flag).
+
+<br>
+
+### 🧪 Syntax
+
+<br>
+
+#### ⚡ Statements
+
+`header <path>`
+
+> Imports a header file.
+
+<br>
+
+Adblock header files should contain the metadata that will be used for the resulting Adblock filter file.
+
+> 💡 Metadata is composed of special comments that describe your filter list closely, like the filter list title, number of entries, version, modified data, author, etc.
+
+<br>
+
+Here's an example:
+
+```adblock
+[Adblock Plus 2.0]
+! Title: AdVoid.Core
+! Description: ✈ AdVoid is an efficient AdBlock filter that blocks ads, trackers, malwares and a lot more if you want it to! 👾
+! Version: 1.8.1082
+! Last modified: 2023-07-23T19:53:00+0200
+! Expires: 6 hours (update frequency)
+! Homepage: https://github.com/igorskyflyer/ad-void
+! Entries: 2533
+! Author: Igor Dimitrijević (@igorskyflyer)
+```
