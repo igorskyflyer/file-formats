@@ -301,7 +301,7 @@ Available options are:
 
 <br>
 
-#### 👀 Examples
+#### 👀 Example
 
 Here's an example of how to transform a common header file to be a reusable, dynamic one:
 
