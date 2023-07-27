@@ -77,7 +77,7 @@ Here's an example:
 
 The `header` should be at the top of the `ADBT` template file; comments are allowed before it.
 
-❗Path to the header file to include must be wrapped by single quotes. Failing to do so, will produce a fatal error.
+❗Path to the header file to include can be either relative or absolute but must be wrapped by single quotes. Failing to do so, will produce a fatal error.
 
 <br>
 <br>
@@ -88,4 +88,4 @@ The `header` should be at the top of the `ADBT` template file; comments are allo
 
 <br>
 
-❗Path to the filter list file to include must be wrapped by single quotes. Failing to do so, will produce a fatal error.
+❗Path to the filter list file to include can be either relative or absolute but must be wrapped by single quotes. Failing to do so, will produce a fatal error.
