@@ -18,6 +18,9 @@
     - [header](#header)
     - [include](#include)
     - [nl](#nl)
+  - [Comments](#-comments)
+    - [Internal](#internal)
+    - [Exported](#exported)
 
 <br>
 
@@ -187,6 +190,24 @@ include './rules/domains.txt'
 @ This is my internal comment
 include './rules/cosmetic.txt'
 @ This is my another internal comment
+include './rules/query.txt'
+```
+
+<br>
+
+#### Exported
+
+> Exported comments are prefixed by an `#` (hash, pound, number sign) and are line-based.
+
+<br>
+
+Example:
+
+```shell
+include './rules/domains.txt'
+# This will exist in the compiled file
+include './rules/cosmetic.txt'
+# This too!
 include './rules/query.txt'
 ```
 
