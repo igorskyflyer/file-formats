@@ -318,4 +318,20 @@ Now, the header file has 2 dynamic properties, `title`, `description`. They pull
 
 ### 💻 Development
 
+Even though technically you can write `ADBT` templates and meta files (`*.adbt.meta`) in any text editor, I highly recommend using [Visual Studio Code](https://code.visualstudio.com/) as your editor.  
+<br>
+The development of `ADBT` and its complementary meta files is available for Visual Studio Code via the [ADBT extension](https://marketplace.visualstudio.com/items?itemName=igordvlpr.adbt) and it includes the following features:
+
+- high-performance due to small footprint,
+- language support and encoding for `*.adbt` files,
+- syntax highlighting,
+- auto-complete (Intellisense):
+  - functions/statements (including path placeholders),
+  - comments (including comment modifiers, i.e. `TODO`, `FIXME`, `NOTE`),
+- hover information,
+- snippets,
+- meta files `*.adbt.meta` support, relies on built-in JSON support:
+  - autocomplete (Intellisense),
+  - hover info.
+
 ### 🧬 Related
