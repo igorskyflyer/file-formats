@@ -11,10 +11,10 @@
 
 ### 📃 Table of Contents
 
-- [Structure](#%EF%B8%8F-structure)
+- [File structure](#%EF%B8%8F-file-structure)
 
 <br>
 
-### ⚙️ Structure
+### ⚙️ File structure
 
 `ADBT` files follow an exact order of their source code.
