@@ -23,7 +23,7 @@
     - [Internal](#internal)
     - [Exported](#exported)
 - [Meta files](#-meta-files)
-  - [Variables](#-variables)
+- [Variables](#-variables)
 - [Examples](#💡-examples)
 - [Development](#-development)
 - [Related](#-related)
