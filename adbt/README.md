@@ -219,3 +219,21 @@ include './rules/query.txt'
 `ADBT` template files can contain a header file - as mentioned [here](#header) but in real-life use case we usually want to have a single, reusable header file with its metadata.
 
 Unfortunately, a common header file most certainly has a property that should be different for every filter list file we compile, in most cases, at least the `! Title: Filter name` should be different for every filter list file.
+
+This is where _meta files_ come into play. Meta files provide a way to have a dynamic header file that can be reused in all `ADBT` template files.
+
+<br>
+
+> 💡 Meta files have a special naming convention, if you fail to name them properly they won't be recognized by the compiler.
+> Meta files should be named after the `ADBT` template that you want to compile, see an example below.
+
+<br>
+
+`ADBT` template name: `my-filter.adbt`
+`ADBT` meta file name: `my-filter.adbt.meta`
+
+<br>
+
+In a nutshell, meta files' name should be:
+
+> \<templateName\> + ".meta"
