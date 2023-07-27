@@ -225,12 +225,16 @@ include './rules/query.txt'
 
 Unfortunately, a common header file most certainly has a property that should be different for every filter list file we compile, in most cases, at least the `! Title: Filter name` should be different for every filter list file.
 
-This is where _meta files_ come into play. Meta files provide a way to have a dynamic header file that can be reused in all `ADBT` template files.
+This is where _meta files_ come into play. Meta files are complementary files that provide a way to have a dynamic header file that can be reused in all `ADBT` template files.
 
 <br>
 
-> 💡 Meta files have a special naming convention, if you fail to name them properly they won't be recognized by the compiler.
-> Meta files should be named after the `ADBT` template that you want to compile, see an example below.
+> ℹ️ Meta files are completely optional, use them only when needed.
+
+<br>
+
+Meta files have a special naming convention, if you fail to name them properly they won't be recognized by the compiler.
+Meta files should be named after the `ADBT` template that you want to compile, see an example below.
 
 <br>
 
@@ -242,3 +246,5 @@ This is where _meta files_ come into play. Meta files provide a way to have a dy
 In a nutshell, meta files' name should be:
 
 > \<templateName\> + ".meta"
+
+Meta files have a syntax of their, even though you are already familiar with its base, JSON (if not, you can learn more [here](https://www.json.org/json-en.html)).
