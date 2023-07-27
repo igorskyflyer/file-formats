@@ -1,4 +1,4 @@
-## 📄 ADBT 🪅
+# 📄 ADBT 🪅
 
 🐲 This file contains the specification and documentation for the `ADBT` - Adblock template files. ⚡
 
@@ -9,7 +9,7 @@
 
 ---
 
-### 📃 Table of Contents
+## 📃 Table of Contents
 
 - [File structure](#%EF%B8%8F-file-structure)
 - [Parsing](#-parsing)
@@ -23,7 +23,7 @@
 
 ---
 
-### ⚙️ File structure
+## ⚙️ File structure
 
 `ADBT` files follow an exact order and rules of their source code, described below:
 
@@ -39,18 +39,16 @@
 
 ---
 
-### 📰 Parsing
+## 📰 Parsing
 
 Parsing and tokenization occur simultaneously in 1 step, line-by-line.  
 Parser will log its steps and progress (needs to enabled in the `Aria` compiler via a flag).
 
 ---
 
-### 🧪 Syntax
+## 🧪 Syntax
 
-<br>
-
-#### ⚡ Statements
+### ⚡ Statements
 
 ##### `header`
 
@@ -100,7 +98,7 @@ The `header` should be at the top of the `ADBT` template file; comments are allo
 
 <br>
 
-##### `include`
+#### `include`
 
 > Imports an Adblock filter list file.
 
@@ -145,7 +143,7 @@ It can contain any valid filter rules and comments.
 
 <br>
 
-##### `nl`
+#### `nl`
 
 > Generates an explicit blank newline.
 
@@ -167,9 +165,11 @@ The newline will be present in the output filter file. Used to improve readabili
 
 <br>
 
-#### 📢 Comments
+### 📢 Comments
 
 ADBT files support two types of comments:
 
 `Internal` &ndash; comments that are only visible in the template file but **are not** exported to the compiled file,  
 `Exported` &ndash; comments that are visible in the template and **are** exported to the compiled file.
+
+<br>
