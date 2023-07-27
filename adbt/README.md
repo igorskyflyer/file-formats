@@ -173,3 +173,21 @@ ADBT files support two types of comments:
 `Exported` &ndash; comments that are visible in the template and **are** exported to the compiled file.
 
 <br>
+
+#### Internal
+
+> Internal comments are prefixed by an `@` (at sign, asperand) and are line-based.
+
+<br>
+
+Example:
+
+```shell
+include './rules/domains.txt'
+@ This is my internal comment
+include './rules/cosmetic.txt'
+@ This is my another internal comment
+include './rules/query.txt'
+```
+
+<br>
