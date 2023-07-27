@@ -66,7 +66,7 @@ Here's an example:
 ```adblock
 [Adblock Plus 2.0]
 ! Title: AdVoid.Core
-! Description: ✈ AdVoid is an efficient AdBlock filter that blocks ads, trackers, malwares and a lot more if you want it to! 👾
+! Description: ✈ AdVoid is an efficient AdBlock filter that blocks ads, trackers, malware and a lot more if you want it to! 👾
 ! Version: 1.8.1082
 ! Last modified: 2023-07-23T19:53:00+0200
 ! Expires: 6 hours (update frequency)
