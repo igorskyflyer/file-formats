@@ -261,6 +261,24 @@ In its earliest stage, the current properties are supported:
 
 <br>
 
+Each property in the `*.adbt.meta` file has a corresponding placeholder variable that you can use in your header files. Placeholders can have aliases.
+
+#### `title`
+
+The title of the filter list.
+
+Placeholders: `$(title)`, `$(file)`
+
+<br>
+
+#### `description`
+
+The description of the filter list.
+
+Placeholders: `$(description)`, `$(about)`
+
+<br>
+
 Here's an example of how to transform a common header file to be a reusable, dynamic one:
 
 <br>
