@@ -45,7 +45,7 @@ Parser will log its steps and progress (needs to enabled in the `Aria` compiler 
 
 #### ⚡ Statements
 
-`header <path>`
+`header '<path>'`
 
 > Imports a header file.
 
