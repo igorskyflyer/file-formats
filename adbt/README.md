@@ -221,7 +221,7 @@ include './rules/cosmetic.txt'
 include './rules/query.txt'
 ```
 
-<br>
+---
 
 ### 🔋 Meta files
 
@@ -306,9 +306,7 @@ Now, let's use meta files to modify our header file:
 
 Now, the header file has 2 dynamic properties, `title`, `description`. They pulled from your meta file when the template is compiled, thus, allowing you to provide custom values in the meta file for each template.
 
-<br>
-
-<br>
+---
 
 ### 🔮 Variables
 
