@@ -261,6 +261,37 @@ In its earliest stage, the current properties are supported:
 
 <br>
 
+Here's an example of how to transform a common header file to be a reusable, dynamic one:
+
+<br>
+
+`my-header.txt` (not reusable)
+
+```adblock
+[Adblock Plus 2.0]
+! Title: AdVoid.Core
+! Description: Will blocks trackers.
+! Version: 1.0.5
+```
+
+If we were to include this header file via the [`header`](#header) statement in multiple `ADBT` templates all of the resulting files would be named `AdVoid.Core` which is wrong because each filter list should have a unique name and (optionally) description and version.
+
+Now, let's use meta files to modify our header file:
+
+`my-header.txt` (reusable!)
+
+```adblock
+[Adblock Plus 2.0]
+! Title: $(title)
+! Description: $(about)
+```
+
+Now, the header file has 2 dynamic properties, `title`, `description`. They pulled from your meta file when the template is compiled, thus, allowing you to provide custom values in the meta file for each template.
+
+<br>
+
+<br>
+
 ### 🔮 Variables
 
 ### 💡 Examples
