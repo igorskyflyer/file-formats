@@ -106,6 +106,22 @@ The `header` should be at the top of the `ADBT` template file; comments are allo
 
 <br>
 
+Accepts: `path: string`
+
+<br>
+
+Example:
+
+```shell
+include './rules/domains.txt'
+include './rules/cosmetic.txt'
+include './rules/query.txt'
+```
+
+<br>
+
+Filter list files are plain text files and although not mandatory, they usually end with a `.txt` extension.
+
 The filter list file should contain **only** filter rules, i.e.
 
 ```adblock
