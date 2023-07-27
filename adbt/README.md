@@ -238,7 +238,7 @@ Meta files should be named after the `ADBT` template that you want to compile, s
 
 <br>
 
-`ADBT` template name: `my-filter.adbt`
+`ADBT` template name: `my-filter.adbt`  
 `ADBT` meta file name: `my-filter.adbt.meta`
 
 <br>
