@@ -84,7 +84,6 @@ The `header` should be at the top of the `ADBT` template file; comments are allo
 ❗Path to the header file to include can be either relative or absolute but must be wrapped by single quotes. Failing to do so, will produce a fatal error.
 
 <br>
-<br>
 
 #### include
 
@@ -111,6 +110,6 @@ The filter list file should contain **only** filter rules, i.e.
 ```
 
 It should **not** include any metadata - that should be included via the [`header`](#header) statement. Doing otherwise will result in metadata conflicts.
-It can contain any valid filter rule and comments.
+It can contain any valid filter rules and comments.
 
 ❗Path to the filter list file to include can be either relative or absolute but must be wrapped by single quotes. Failing to do so, will produce a fatal error.
