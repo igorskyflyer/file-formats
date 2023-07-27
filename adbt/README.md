@@ -254,7 +254,26 @@ In a nutshell, meta files' name should be:
 
 Meta files have a syntax of their own, even though you are already familiar with its base, JSON (if not, you can learn more [here](https://www.json.org/json-en.html)).
 
-In its earliest stage, the current properties are supported:
+Continue reading to learn how to use meta file (and other) variables.
+
+---
+
+### 🔮 Variables
+
+`ADBT` in conjunction with its compiler `Aria` provide a mechanism of using variables inside plain header/filter files in order to maximise efficiency, reusability and customizability.
+
+<br>
+
+There are 2 types of variables available:
+
+- `meta variables`, template-based, local, stored in a `*.adbt.meta` file,
+- `complier variables`, compiler-based, global, available anywhere in the template file, computed during compile time.
+
+---
+
+#### 🦠 Meta variables
+
+In its earliest stage, the current properties are stored in a `*.adbt.meta` file:
 
 - `title`,
 - `description`,
@@ -298,6 +317,10 @@ Available options are:
 - `semver`: use valid SemVer versioning when exporting the filter file, e.g. v1.0.0, v2.199.222, etc.
   If no version is found the counting starts with v1.0.0,
 - `timestamp`: use current UNIX timestamp, e.g. 1690409508.
+
+<br>
+
+> ℹ️ More information about the variables that the compiler provides is available in the [Variables](#-variables) section.
 
 <br>
 
@@ -361,6 +384,8 @@ export './popups.txt'
 }
 ```
 
+<br>
+
 `popups.txt` _(compiled)_
 
 ```adblock
@@ -373,10 +398,6 @@ export './popups.txt'
 ##.someclass
 ##.someclass
 ```
-
----
-
-### 🔮 Variables
 
 ---
 
