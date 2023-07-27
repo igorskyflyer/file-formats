@@ -149,6 +149,20 @@ It can contain any valid filter rules and comments.
 
 > Generates an explicit blank newline.
 
+<br>
+
+Accepts: N/A
+
+<br>
+
+Example:
+
+```shell
+nl
+```
+
+<br>
+
 The newline will be present in the output filter file. Used to improve readability and/or organize your rules, see [examples](#-examples) below.
 
 <br>
