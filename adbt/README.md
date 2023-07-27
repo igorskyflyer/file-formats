@@ -17,6 +17,7 @@
   - [Statements](#-statements)
     - [header](#header)
     - [include](#include)
+    - [nl](#nl)
 
 <br>
 
@@ -51,11 +52,25 @@ Parser will log its steps and progress (needs to enabled in the `Aria` compiler 
 
 #### ⚡ Statements
 
-#### header
-
-`header '<path>'`
+#### `header`
 
 > Imports a header file.
+
+<br>
+
+Accepts: `path: string`
+
+<br>
+
+Example:
+
+```shell
+header './headers/my-header.txt'
+```
+
+<br>
+
+Header files are plain text files and although not mandatory, they usually end with a `.txt` extension.
 
 <br>
 
@@ -85,9 +100,7 @@ The `header` should be at the top of the `ADBT` template file; comments are allo
 
 <br>
 
-#### include
-
-`include '<path>'`
+#### `include`
 
 > Imports an Adblock filter list file.
 
@@ -113,3 +126,13 @@ It should **not** include any metadata - that should be included via the [`heade
 It can contain any valid filter rules and comments.
 
 ❗Path to the filter list file to include can be either relative or absolute but must be wrapped by single quotes. Failing to do so, will produce a fatal error.
+
+<br>
+
+#### `nl`
+
+> Generates an explicit blank newline.
+
+The newline will be present in the output filter file. Used to improve readability and/or organize your rules, see [examples](#-examples) below.
+
+<br>
