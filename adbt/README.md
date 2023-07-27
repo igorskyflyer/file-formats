@@ -5,7 +5,8 @@
 <br>
 
 `ADBT` files are template files that provide a way of writing reusable, component-like based Adblock filter files.  
-`ADBT` use plain text, are UTF-8 encoded and use LFs for line-breaks. Even if you add CRLFs, the compiler will auto-convert them to LFs and the output file will contain only LFs.
+`ADBT` use plain text, are UTF-8 encoded and use LFs for line-breaks. Even if you add CRLFs, the compiler will auto-convert them to LFs and the output file will contain only LFs.  
+`ADBT` templates contain header and filter rule files that will get compiled to a single filter list file.
 
 ---
 
@@ -40,6 +41,10 @@
 - filter files can be included multiple times,
 - export statement **must** be the last statement of the file
   - only 1 export statement is allowed per template file
+
+<br>
+
+❗Each `ADBT` template will only export 1 filter list file.
 
 ---
 
