@@ -166,3 +166,10 @@ nl
 The newline will be present in the output filter file. Used to improve readability and/or organize your rules, see [examples](#-examples) below.
 
 <br>
+
+#### 📢 Comments
+
+ADBT files support two types of comments:
+
+`Internal` &ndash; comments that are only visible in the template file but **are not** exported to the compiled file,  
+`Exported` &ndash; comments that are visible in the template and **are** exported to the compiled file.
