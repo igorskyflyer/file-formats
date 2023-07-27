@@ -94,4 +94,5 @@ The `header` should be at the top of the `ADBT` template file; comments are allo
 
 <br>
 
-❗Path to the filter list file to include can be either relative or absolute but must be wrapped by single quotes. Failing to do so, will produce a fatal error.
+❗Path to the filter list file to include can be either relative or absolute but must be wrapped by single quotes.  
+Failing to do so, will produce a fatal error.
