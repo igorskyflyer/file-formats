@@ -312,7 +312,7 @@ Here's an example of how to transform a common header file to be a reusable, dyn
 ```adblock
 [Adblock Plus 2.0]
 ! Title: AdVoid.Core
-! Description: Will blocks trackers.
+! Description: Will block trackers.
 ```
 
 If we were to include this header file via the [`header`](#header) statement in multiple `ADBT` templates all of the resulting files would be named `AdVoid.Core` which is wrong because each filter list should have a unique name and (optionally) description and version.
