@@ -170,7 +170,7 @@ The newline will be present in the output filter file. Used to improve readabili
 
 ### 📢 Comments
 
-ADBT files support two types of comments:
+`ADBT` files support two types of comments:
 
 `Internal` &ndash; comments that are only visible in the template file but **are not** exported to the compiled file,  
 `Exported` &ndash; comments that are visible in the template and **are** exported to the compiled file.
@@ -212,3 +212,9 @@ include './rules/query.txt'
 ```
 
 <br>
+
+### 🔋 Meta files
+
+`ADBT` template files can contain a header file - as mentioned [here](#header) but in real-life use case we usually want to have a single, reusable header file with its metadata.
+
+Unfortunately, a common header file most certainly has a property that should be different for every filter list file we compile, in most cases, at least the `! Title: Filter name` should be different for every filter list file.
