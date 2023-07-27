@@ -43,8 +43,6 @@ Parser will log its steps and progress (needs to enabled in the `Aria` compiler 
 
 ---
 
-<br>
-
 ### 🧪 Syntax
 
 <br>
