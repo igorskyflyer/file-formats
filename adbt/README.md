@@ -229,7 +229,7 @@ include './rules/query.txt'
 
 Unfortunately, a common header file most certainly has a property that should be different for every filter list file we compile, in most cases, at least the `! Title: Filter name` should be different for every filter list file.
 
-This is where _meta files_ come into play. Meta files are complementary files that provide a way to have a dynamic header file that can be reused in all `ADBT` template files.
+This is where _meta files_ come into play. Meta files are complementary files with an extension of `*.adbt.meta` that provide a way to have a dynamic header file that can be reused in all `ADBT` template files.
 
 <br>
 
