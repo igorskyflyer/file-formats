@@ -229,7 +229,7 @@ include './rules/query.txt'
 
 Unfortunately, a common header file most certainly has a property that should be different for every filter list file we compile, in most cases, at least the `! Title: Filter name` should be different for every filter list file.
 
-This is where _meta files_ come into play. Meta files are complementary files with an extension of `*.adbt.meta` that provide a way to have a dynamic header file that can be reused in all `ADBT` template files.
+This is where _meta files_ come into play. Meta files are complementary files with an extension of `*.adbt.meta` that provide a way to have a dynamic header file that can be reused in all `ADBT` template files. We write placeholders in our header file that get replaced at compile-time.
 
 <br>
 
@@ -261,7 +261,7 @@ In its earliest stage, the current properties are supported:
 
 <br>
 
-Each property in the `*.adbt.meta` file has a corresponding placeholder variable that you can use in your header files. Placeholders can have aliases.
+Each property in the `*.adbt.meta` file has a corresponding placeholder variable that you can use in your header files. Placeholders can have aliases. Placeholders provided by meta files are substituted during compile-time.
 
 #### `title`
 
@@ -293,7 +293,7 @@ Here's an example of how to transform a common header file to be a reusable, dyn
 
 If we were to include this header file via the [`header`](#header) statement in multiple `ADBT` templates all of the resulting files would be named `AdVoid.Core` which is wrong because each filter list should have a unique name and (optionally) description and version.
 
-Now, let's use meta files to modify our header file:
+Now, let's use meta files and their variables to modify our header file:
 
 `my-header.txt` (reusable!)
 
@@ -303,7 +303,45 @@ Now, let's use meta files to modify our header file:
 ! Description: $(about)
 ```
 
-Now, the header file has 2 dynamic properties, `title`, `description`. They pulled from your meta file when the template is compiled, thus, allowing you to provide custom values in the meta file for each template.
+Now, the header file has 2 dynamic properties, `title`, `description`. They are represented by the placeholders and are pulled from your meta file when the template is compiled, thus, allowing you to provide custom values in the meta file for each template.
+
+<br>
+
+Here is an example of a template file, its corresponding meta file and the resulting filter list file:
+
+<br>
+
+`popups.adbt`
+
+```shell
+header './headers/my-header.txt'
+
+include './rules/popups.txt'
+include './rules/annoyances.txt'
+include './rules/sticky.txt'
+...
+
+export './popups.txt'
+```
+
+<br>
+
+`popups.adbt.meta`
+
+```json
+{
+  "title": "Pop Blocker",
+  "description": "Will block popups."
+}
+```
+
+`popups.txt` _(compiled)_
+
+```adblock
+[Adblock Plus 2.0]
+! Title: Pop Blocker
+! Description: Will block popups.
+```
 
 ---
 
