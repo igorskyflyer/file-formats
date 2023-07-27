@@ -205,7 +205,7 @@ Example:
 
 ```shell
 include './rules/domains.txt'
-# This will exist in the compiled file
+# This will be present in the compiled file
 include './rules/cosmetic.txt'
 # This too!
 include './rules/query.txt'
