@@ -94,4 +94,23 @@ The `header` should be at the top of the `ADBT` template file; comments are allo
 
 <br>
 
+The filter list file should contain **only** filter rules, i.e.
+
+```adblock
+||somesite.abc^
+||somesite.abc^
+||somesite.abc^
+||somesite.abc^
+||somesite.abc^
+##.someclass
+##.someclass
+! comment
+##.someclass
+##.someclass
+##.someclass
+```
+
+It should **not** include any metadata - that should be included via the [`header`](#header) statement. Doing otherwise will result in metadata conflicts.
+It can contain any valid filter rule and comments.
+
 ❗Path to the filter list file to include can be either relative or absolute but must be wrapped by single quotes. Failing to do so, will produce a fatal error.
