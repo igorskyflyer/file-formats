@@ -44,7 +44,7 @@
 
 <br>
 
-❗Each `ADBT` template will only export 1 filter list file.
+❗Each `ADBT` template can be compiled to only 1 filter list file.
 
 ---
 
