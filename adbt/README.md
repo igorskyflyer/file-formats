@@ -341,6 +341,11 @@ export './popups.txt'
 [Adblock Plus 2.0]
 ! Title: Pop Blocker
 ! Description: Will block popups.
+##.someclass
+##.someclass
+##.someclass
+##.someclass
+##.someclass
 ```
 
 ---
