@@ -52,7 +52,7 @@ Parser will log its steps and progress (needs to enabled in the `Aria` compiler 
 
 #### ⚡ Statements
 
-#### `header`
+##### `header`
 
 > Imports a header file.
 
@@ -100,7 +100,7 @@ The `header` should be at the top of the `ADBT` template file; comments are allo
 
 <br>
 
-#### `include`
+##### `include`
 
 > Imports an Adblock filter list file.
 
@@ -145,7 +145,7 @@ It can contain any valid filter rules and comments.
 
 <br>
 
-#### `nl`
+##### `nl`
 
 > Generates an explicit blank newline.
 
