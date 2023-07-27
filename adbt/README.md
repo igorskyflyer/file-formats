@@ -11,7 +11,7 @@
 
 ### 📃 Table of Contents
 
-- [Structure](#-structure)
+- [Structure](#%EF%B8%8F-structure)
 
 <br>
 
