@@ -23,8 +23,9 @@
     - [Internal](#internal)
     - [Exported](#exported)
 - [Meta files](#-meta-files)
+  - [Examples](#-examples)
 - [Variables](#-variables)
-- [Examples](#💡-examples)
+- [Examples](#-examples)
 - [Development](#-development)
 - [Related](#-related)
 
@@ -278,6 +279,29 @@ The description of the filter list.
 Placeholders: `$(description)`, `$(about)`
 
 <br>
+
+#### `versioning`
+
+The description of the filter list.
+
+Placeholders: N/A
+
+<br>
+
+> ❗This is a compiler-behaviour variable only, it controls which versioning system to use for the exported filter list file, thus you cannot use it a header file for substitution.
+
+<br>
+
+Available options are:
+
+- `auto`: **default**, let the compiler decide which versioning system to use. If the resulting file already exists, i.e. `Aria` already compiled the template before, it will re-use the versioning found in the file, otherwise it will use `semver`,
+- `semver`: use valid SemVer versioning when exporting the filter file, e.g. v1.0.0, v2.199.222, etc.
+  If no version is found the counting starts with v1.0.0,
+- `timestamp`: use current UNIX timestamp, e.g. 1690409508.
+
+<br>
+
+#### 👀 Examples
 
 Here's an example of how to transform a common header file to be a reusable, dynamic one:
 
