@@ -21,6 +21,7 @@
   - [Comments](#-comments)
     - [Internal](#internal)
     - [Exported](#exported)
+- [Meta files](#-meta-files)
 
 <br>
 
