@@ -13,6 +13,8 @@
 
 - [File structure](#%EF%B8%8F-file-structure)
 - [Parsing](#-parsing)
+- [Syntax](#-syntax)
+  - [Statements](#-statements)
 
 <br>
 
