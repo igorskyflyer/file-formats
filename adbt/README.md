@@ -15,6 +15,8 @@
 - [Parsing](#-parsing)
 - [Syntax](#-syntax)
   - [Statements](#-statements)
+    - [header](#header)
+    - [include](#include)
 
 <br>
 
@@ -49,6 +51,8 @@ Parser will log its steps and progress (needs to enabled in the `Aria` compiler 
 
 #### ⚡ Statements
 
+#### header
+
 `header '<path>'`
 
 > Imports a header file.
@@ -81,6 +85,8 @@ The `header` should be at the top of the `ADBT` template file; comments are allo
 
 <br>
 <br>
+
+#### include
 
 `include '<path>'`
 
