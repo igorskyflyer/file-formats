@@ -4,7 +4,7 @@
 
 <br>
 
-`ADBT` files are template files that provide a way of writing reusable, component-like based Adblock filter files.
+`ADBT` files are template files that provide a way of writing reusable, component-like based Adblock filter files.  
 `ADBT` use plain text, are UTF-8 encoded and use LF for line-breaks.
 
 <br>
@@ -34,7 +34,7 @@
 
 ### 📰 Parsing
 
-Parsing and tokenization occur simultaneously in 1 step, line-by-line.
+Parsing and tokenization occur simultaneously in 1 step, line-by-line.  
 Parser will log its steps and progress (needs to enabled in the `Aria` compiler via a flag).
 
 <br>
