@@ -25,7 +25,7 @@
 - [Meta files](#-meta-files)
   - [Examples](#-examples)
 - [Variables](#-variables)
-- [Examples](#-examples)
+- [Examples](#-examples-1)
 - [Development](#-development)
 - [Related](#-related)
 
