@@ -23,6 +23,10 @@
     - [Internal](#internal)
     - [Exported](#exported)
 - [Meta files](#-meta-files)
+  - [Variables](#-variables)
+- [Examples](#💡-examples)
+- [Development](#-development)
+- [Related](#-related)
 
 <br>
 
@@ -248,3 +252,19 @@ In a nutshell, meta files' name should be:
 > \<templateName\> + ".meta"
 
 Meta files have a syntax of their own, even though you are already familiar with its base, JSON (if not, you can learn more [here](https://www.json.org/json-en.html)).
+
+In its earliest stage, the current properties are supported:
+
+- `title`,
+- `description`,
+- `versioning`
+
+<br>
+
+#### 🔮 Variables
+
+### 💡 Examples
+
+### 💻 Development
+
+### 🧬 Related
