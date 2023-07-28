@@ -86,6 +86,9 @@ Accepts: `path: string`
 
 Example:
 
+<br>
+
+`template.adbt`
 ```shell
 header './headers/my-header.txt'
 ```
