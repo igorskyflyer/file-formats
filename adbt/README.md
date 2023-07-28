@@ -245,9 +245,9 @@ include './rules/query.txt'
 
 `ADBT` template files can contain a header file - as mentioned [here](#header) but in real-life use case we usually want to have a single, reusable header file with its metadata.
 
-Unfortunately, a common header file most certainly has a property that should be different for every filter list file we compile, in most cases, at least the `! Title: Filter name` should be different for every filter list file.
+Unfortunately, a common header file most certainly has a property that should be different for every filter list file we compiled, in most cases, at least the `! Title: Filter name` should be different for every filter list file.
 
-This is where _meta files_ come into play. Meta files are complementary files with an extension of `*.adbt.meta` that provide a way to have a dynamic header file that can be reused in all `ADBT` template files. We write placeholders in our header file that get replaced at compile-time.
+This is where _meta files_ come into play. Meta files are complementary files with an extension of `*.adbt.meta` that provide a way of having a dynamic header file that can be reused in all `ADBT` template files. We write placeholders in our common header file that get replaced at compile-time.
 
 <br>
 
@@ -256,7 +256,7 @@ This is where _meta files_ come into play. Meta files are complementary files wi
 <br>
 
 Meta files have a special naming convention, if you fail to name them properly they won't be recognized by the compiler.
-Meta files should be named after the `ADBT` template that you want to compile, see an example below.
+Meta files should be named after the `ADBT` template basename, see an example below.
 
 <br>
 
@@ -269,9 +269,9 @@ In a nutshell, meta files' name should be:
 
 > \<templateName\> + ".meta"
 
-Meta files have a syntax of their own, even though you are already familiar with its base, JSON (if not, you can learn more [here](https://www.json.org/json-en.html)).
+Meta files have a syntax of their own, even though you are already familiar with its base, JSON (if not, you can learn more [here](https://www.json.org/json-en.html)).  
 
-Continue reading to learn how to use meta file (and other) variables.
+👀 Continue reading to learn how to use meta file (and other) variables.
 
 ---
 
