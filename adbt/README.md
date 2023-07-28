@@ -290,11 +290,11 @@ Meta files should be named after the `ADBT` template basename, see an example be
 
 <br>
 
-In a nutshell, meta files' name should be:
+In a nutshell, meta files' filename should be:
 
 > \<templateBasename\> + ".adbm"
 
-Meta files have a syntax of their own, even though you are already familiar with its base, JSON (if not, you can learn more [here](https://www.json.org/json-en.html)).
+Meta files have properties of their own, even though you are already familiar with its base, JSON (if not, you can learn more [here](https://www.json.org/json-en.html)).
 
 👀 Continue reading to learn how to use meta file (and other) variables.
 
