@@ -390,7 +390,7 @@ Now, let's use meta files and their variables to modify our header file:
 
 ```adblock
 [Adblock Plus 2.0]
-! Title: {title]
+! Title: {title}
 ! Description: {about}
 !             👆🏽 we could use {description} as well
 ```
