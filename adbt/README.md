@@ -29,17 +29,17 @@
 
 ## 📍 Introduction
 
-`ADBT` files are template files that provide ways of writing reusable, component-like based Adblock filter files.  
+`ADBT` files are template files that provide ways of writing reusable, component-like based Adblock filter files.
 
-`ADBT` are text-based, UTF-8 encoded files and use LFs for line-breaks.  
+`ADBT` are text-based, UTF-8 encoded files and use LFs for line-breaks.
 
-> 💡 Even if you add CRLFs, the compiler will auto-convert them to LFs and the output file will contain only LFs.  
+> 💡 Even if you add CRLFs, the compiler will auto-convert them to LFs and the output file will contain only LFs.
 
-`ADBT` templates contain header and filter rule files that will get compiled to a single filter list file.  
+`ADBT` templates contain header and filter rule files that will get compiled to a single filter list file.
 
-`ADBT` files and their compiler `Aria` are Adblock syntax-agnostic, you are free to use any Adblock syntax.  
+`ADBT` files and their compiler `Aria` are Adblock syntax-agnostic, you are free to use any Adblock syntax.
 
-`ADBT` files can work in conjunction  with optional, complimentary files `*.adbm`.
+`ADBT` files can work in conjunction with optional, complimentary files `*.adbm`.
 
 ---
 
@@ -99,9 +99,10 @@ Accepts: `path: string`
 
 <br>
 
-Example:  
+Example:
 
 `template.adbt`
+
 ```shell
 header './headers/my-header.txt'
 ```
@@ -120,9 +121,10 @@ Adblock header files should contain the metadata that will be used for the resul
 
 <br>
 
-Here's an example:  
+Here's an example:
 
 `header.txt`
+
 ```adblock
 [Adblock Plus 2.0]
 ! Title: AdVoid.Core
@@ -151,9 +153,10 @@ Accepts: `path: string`
 
 <br>
 
-Example:  
+Example:
 
 `template.adbt`
+
 ```shell
 include './rules/domains.txt'
 include './rules/cosmetic.txt'
@@ -167,6 +170,7 @@ Filter list files are plain text files and although not mandatory, they usually 
 The filter list file should contain **only** filter rules and Adblock comments, i.e.:
 
 `rules.txt`
+
 ```adblock
 ||somesite.abc^
 ||somesite.abc^
@@ -198,9 +202,10 @@ Accepts: N/A
 
 <br>
 
-Example:  
+Example:
 
 `template.adbt`
+
 ```shell
 nl
 ```
@@ -226,9 +231,10 @@ The newline will be present in the output/compiled filter file. Used to improve 
 
 <br>
 
-Example:  
+Example:
 
 `template.adbt`
+
 ```shell
 include './rules/domains.txt'
 @ This is my internal comment
@@ -245,9 +251,10 @@ include './rules/query.txt'
 
 <br>
 
-Example:  
+Example:
 
 `template.adbt`
+
 ```shell
 include './rules/domains.txt'
 # This will be present in the compiled file
@@ -278,8 +285,8 @@ Meta files should be named after the `ADBT` template basename, see an example be
 
 <br>
 
-`ADBT` template name: `my-filter.adbt`  
-`ADBT` meta file name: `my-filter.adbm`
+`ADBT` template name: `my-template.adbt`  
+`ADBT` meta file name: `my-template.adbm`
 
 <br>
 
@@ -287,7 +294,7 @@ In a nutshell, meta files' name should be:
 
 > \<templateBasename\> + ".adbm"
 
-Meta files have a syntax of their own, even though you are already familiar with its base, JSON (if not, you can learn more [here](https://www.json.org/json-en.html)).  
+Meta files have a syntax of their own, even though you are already familiar with its base, JSON (if not, you can learn more [here](https://www.json.org/json-en.html)).
 
 👀 Continue reading to learn how to use meta file (and other) variables.
 
@@ -444,7 +451,7 @@ export './popups.txt'
 
 ### 💻 Development
 
-Even though technically you can write `ADBT` (*.adbt) templates and meta files (`*.adbm`) in any text editor, I highly recommend using [Visual Studio Code](https://code.visualstudio.com/) as your editor.  
+Even though technically you can write `ADBT` (_.adbt) templates and meta files (`_.adbm`) in any text editor, I highly recommend using [Visual Studio Code](https://code.visualstudio.com/) as your editor.
 
 <br>
 
