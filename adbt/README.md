@@ -21,7 +21,7 @@
 - [Variables](#-variables)
   - [Meta variables](#-meta-variables)
     - [Example](#-example)
-- [Examples](#-examples-1)
+- [Examples](#-examples)
 - [Development](#-development)
 - [Related](#-related)
 
