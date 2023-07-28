@@ -21,8 +21,8 @@ Line break: LF
 
 `ADBT meta` file information:
 
-Extension: `.adbt.meta`
-Encoding: UTF-8
+Extension: `.adbt.meta`  
+Encoding: UTF-8  
 Line break: LF  
 
 ---
