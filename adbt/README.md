@@ -272,19 +272,20 @@ This is where _meta files_ come into play. Meta files are complementary files wi
 
 <br>
 
-Meta files have a special naming convention, if you fail to name them properly they won't be recognized by the compiler.
-Meta files should be named after the basename (filename without the extension) of the header file that you're including, see an example below.
+Meta files have a special naming convention.  
+If you fail to name them properly they won't be recognized by the compiler.  
+Meta files should be named after the `ADBT` template basename, see an example below.
 
 <br>
 
-Header filename: `my-header.txt`  
-`ADBT` meta filename: `my-header.adbm`
+`ADBT` template name: `my-filter.adbt`  
+`ADBT` meta file name: `my-filter.adbm`
 
 <br>
 
 In a nutshell, meta files' name should be:
 
-> \<headerName\> + ".adbm"
+> \<templateBasename\> + ".adbm"
 
 Meta files have a syntax of their own, even though you are already familiar with its base, JSON (if not, you can learn more [here](https://www.json.org/json-en.html)).  
 
