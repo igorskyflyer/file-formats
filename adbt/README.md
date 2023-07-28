@@ -100,7 +100,7 @@ Adblock header files should contain the metadata that will be used for the resul
 
 <br>
 
-> 💡 Metadata is composed of special comments that describe your filter list closely, like the filter list title, number of entries, version, modified data, author, etc.
+> 💡 Metadata is composed of special comments that describe your filter list closely, like the filter list title, number of entries, version, modified date, author, etc.
 
 <br>
 
