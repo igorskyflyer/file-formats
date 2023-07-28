@@ -22,6 +22,8 @@
 - [Variables](#-variables)
   - [Meta variables](#-meta-variables)
     - [Example](#-example)
+  - [Compile variables](#-compile-variables)
+    - [Example](#-example-1)
 - [Examples](#-examples)
 - [Related](#-related)
 
@@ -352,7 +354,7 @@ Placeholders for meta variables have the following syntax `{placeholder}`.
 
 <br>
 
-#### Available meta placeholders
+#### Available meta variables
 
 #### `title`
 
@@ -478,6 +480,68 @@ export './my-filter-list.txt'
 ##.xyz
 ##.someclass
 ```
+
+---
+
+#### 🍭 Compile variables
+
+Currently, 4 compile-time variables are available:
+
+- `file`,
+- `version`,
+- `entries`,
+- `lastModified`
+
+<br>
+
+Placeholders can have aliases. Placeholders are substituted during compile-time.
+
+Placeholders for meta variables have the following syntax `$placeholder`.
+
+<br>
+
+#### Available compile variables
+
+#### `file`
+
+Filename of the current `ADBT` file. Useful for giving automatic titles to compiled filter files.
+
+Placeholder: `$file`
+
+<br>
+
+##### Example
+
+`my-header.txt`
+```adblock
+[Adblock Plus 2.0]
+! Title: $file
+```
+
+`My Filter.adbt`
+```shell
+header './headers/my-header.txt'
+
+include './rules/popups.txt'
+include './rules/annoyances.txt'
+include './rules/sticky.txt'
+@ more includes if needed
+
+export './my-filter-list.txt'
+
+```
+
+The compiled file `./my-filter-list.txt` will have the following metadata:
+
+<br>
+
+`my-filter-list.txt`
+```adblock
+[Adblock Plus 2.0]
+! Title: My Filter
+```
+
+<br> 
 
 ---
 
