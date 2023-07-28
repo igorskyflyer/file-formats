@@ -400,7 +400,17 @@ Now, the header file has 2 dynamic properties, `title` and `description`. They a
 
 <br>
 
-Here is an example of a template file, its corresponding meta file and the resulting, compiled filter list file:
+Here is an example of a reusable header file, a template file and its corresponding meta file and the resulting, compiled filter list file:
+
+<br>
+
+`my-header.txt`
+
+```adblock
+[Adblock Plus 2.0]
+! Title: {title}
+! Description: {description}
+```
 
 <br>
 
@@ -414,7 +424,7 @@ include './rules/annoyances.txt'
 include './rules/sticky.txt'
 @ more includes if needed
 
-export './popups.txt'
+export './my-filter-list.txt'
 ```
 
 <br>
@@ -430,7 +440,7 @@ export './popups.txt'
 
 <br>
 
-`popups.txt` _(compiled)_
+`my-filter-list.txt` _(compiled)_
 
 ```adblock
 [Adblock Plus 2.0]
