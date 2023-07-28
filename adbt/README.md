@@ -103,8 +103,9 @@ Adblock header files should contain the metadata that will be used for the resul
 
 <br>
 
-Here's an example:
+Here's an example:  
 
+`header.txt`
 ```adblock
 [Adblock Plus 2.0]
 ! Title: AdVoid.Core
@@ -133,8 +134,9 @@ Accepts: `path: string`
 
 <br>
 
-Example:
+Example:  
 
+`template.adbt`
 ```shell
 include './rules/domains.txt'
 include './rules/cosmetic.txt'
