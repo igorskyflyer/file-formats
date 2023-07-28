@@ -98,6 +98,8 @@ Header files are plain text files and although not mandatory, they usually end w
 
 Adblock header files should contain the metadata that will be used for the resulting Adblock filter file.
 
+<br>
+
 > 💡 Metadata is composed of special comments that describe your filter list closely, like the filter list title, number of entries, version, modified data, author, etc.
 
 <br>
