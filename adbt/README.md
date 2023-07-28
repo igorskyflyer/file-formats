@@ -23,8 +23,8 @@
     - [Internal](#internal)
     - [Exported](#exported)
 - [Meta files](#-meta-files)
-  - [Examples](#-examples)
 - [Variables](#-variables)
+  - [Meta variable](#-meta-variables)
 - [Examples](#-examples-1)
 - [Development](#-development)
 - [Related](#-related)
@@ -282,6 +282,8 @@ In its earliest stage, the current properties are stored in a `*.adbt.meta` file
 <br>
 
 Each property in the `*.adbt.meta` file has a corresponding placeholder variable that you can use in your header files. Placeholders can have aliases. Placeholders provided by meta files are substituted during compile-time.
+
+<br>
 
 #### `title`
 
