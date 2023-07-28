@@ -390,10 +390,9 @@ Now, let's use meta files and their variables to modify our header file:
 
 ```adblock
 [Adblock Plus 2.0]
-!       👇🏽 we could use $(file) as well
-! Title: $(title)
-! Description: $(about)
-!             👆🏽 we could use $(description) as well
+! Title: {title]
+! Description: {about}
+!             👆🏽 we could use {description} as well
 ```
 
 Now, the header file has 2 dynamic properties, `title` and `description`. They are represented by the placeholders and are pulled from your meta file when the template is compiled, thus, allowing you to provide custom and different values in the meta file for each template.
