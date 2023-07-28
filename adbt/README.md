@@ -325,7 +325,7 @@ In its earliest stage, the current properties can be stored in an `*.adbm` file:
 
 Each property in the `*.adbm` file has a corresponding placeholder variable that you can use in your header files. Placeholders can have aliases. Placeholders provided by meta files are substituted during compile-time.
 
-Placeholder for meta variables have the following syntax `{placeholder}`.
+Placeholders for meta variables have the following syntax `{placeholder}`.
 
 <br>
 
@@ -386,7 +386,7 @@ If we were to include this header file via the [`header`](#header) statement in 
 
 Now, let's use meta files and their variables to modify our header file:
 
-`my-header.txt` (**_reusable_** !)
+`my-header.txt` (**_reusable!_**)
 
 ```adblock
 [Adblock Plus 2.0]
