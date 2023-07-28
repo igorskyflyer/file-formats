@@ -47,20 +47,20 @@
 
 `ADBT` file information:
 
-Type: text  
-Extension: `.adbt`  
-Encoding: UTF-8  
-Line break: LF  
+Type: text
+Extension: `.adbt`
+Encoding: UTF-8
+Line break: LF
 Syntax: custom
 
 <br>
 
 `ADBT meta` file information:
 
-Type: text  
-Extension: `.adbm`  
-Encoding: UTF-8  
-Line break: auto  
+Type: text
+Extension: `.adbm`
+Encoding: UTF-8
+Line break: auto
 Syntax: JSON
 
 ---
@@ -220,7 +220,7 @@ The newline will be present in the output/compiled filter file. Used to improve 
 
 `ADBT` files support two types of comments:
 
-`internal` &ndash; comments that are only visible in the template file but **are not** exported to the compiled file,  
+`internal` &ndash; comments that are only visible in the template file but **are not** exported to the compiled file,
 `exported` &ndash; comments that are visible in the template and **are** exported to the compiled file.
 
 <br>
@@ -279,13 +279,13 @@ This is where _meta files_ come into play. Meta files are complementary files wi
 
 <br>
 
-Meta files have a special naming convention.  
-If you fail to name them properly they won't be recognized by the compiler.  
+Meta files have a special naming convention.
+If you fail to name them properly they won't be recognized by the compiler.
 Meta files should be named after the `ADBT` template basename, see an example below.
 
 <br>
 
-`ADBT` template name: `my-template.adbt`  
+`ADBT` template name: `my-template.adbt`
 `ADBT` meta file name: `my-template.adbm`
 
 <br>
@@ -308,14 +308,14 @@ Meta files have a syntax of their own, even though you are already familiar with
 
 There are 2 types of variables available:
 
-- `meta variables`, template-based, local, stored in a `*.adbm` file,
+- `meta variables`, template-based, local, stored in an `*.adbm` file,
 - `compiler variables`, compiler-based, global, available anywhere in the template file, computed during compile time.
 
 ---
 
 #### 🦠 Meta variables
 
-In its earliest stage, the current properties can be stored in a `*.adbm` file:
+In its earliest stage, the current properties can be stored in an `*.adbm` file:
 
 - `title`,
 - `description`,
@@ -325,13 +325,17 @@ In its earliest stage, the current properties can be stored in a `*.adbm` file:
 
 Each property in the `*.adbm` file has a corresponding placeholder variable that you can use in your header files. Placeholders can have aliases. Placeholders provided by meta files are substituted during compile-time.
 
+Placeholder for meta variables have the following syntax `{placeholder}`.
+
 <br>
+
+#### Available meta placeholders
 
 #### `title`
 
 The title of the filter list.
 
-Placeholders: `$(title)`, `$(file)`
+Placeholder: `{title}`
 
 <br>
 
@@ -339,7 +343,7 @@ Placeholders: `$(title)`, `$(file)`
 
 The description of the filter list.
 
-Placeholders: `$(description)`, `$(about)`
+Placeholders: `{description}`, `{about}`
 
 <br>
 
@@ -451,11 +455,11 @@ export './popups.txt'
 
 ### 💻 Development
 
-Even though technically you can write `ADBT` (_.adbt) templates and meta files (`_.adbm`) in any text editor, I highly recommend using [Visual Studio Code](https://code.visualstudio.com/) as your editor.
+Even though technically you can write `ADBT` \(`*.adbt`) templates and meta files \(`*.adbm`) in any text editor, I highly recommend using [Visual Studio Code](https://code.visualstudio.com/) as your editor.
 
 <br>
 
-Editing of `ADBT` and its complementary meta files is available for Visual Studio Code via the [ADBT extension](https://marketplace.visualstudio.com/items?itemName=igordvlpr.adbt) and it includes the following features:
+Editing of `ADBT` templates and their complementary meta files is available for Visual Studio Code via the [ADBT extension](https://marketplace.visualstudio.com/items?itemName=igordvlpr.adbt) and it includes the following features:
 
 - high-performance due to small footprint,
 - language support and encoding for `*.adbt` files,
