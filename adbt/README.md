@@ -290,7 +290,7 @@ There are 2 types of variables available:
 
 #### 🦠 Meta variables
 
-In its earliest stage, the current properties are stored in a `*.adbt.meta` file:
+In its earliest stage, the current properties can be stored in a `*.adbt.meta` file:
 
 - `title`,
 - `description`,
@@ -320,13 +320,13 @@ Placeholders: `$(description)`, `$(about)`
 
 #### `versioning`
 
-The description of the filter list.
+The versioning system of the filter list.
 
 Placeholders: N/A
 
 <br>
 
-> ❗This is a compiler-behaviour variable only, it controls which versioning system to use for the exported filter list file, thus you cannot use it a header file for substitution.
+> ❗ Unlike the previous 2 variables, this is a compiler-behaviour variable only, it controls which versioning system to use for the exported filter list file, thus you cannot use it a header file for substitution.
 
 <br>
 
@@ -339,13 +339,9 @@ Available options are:
 
 <br>
 
-> ℹ️ More information about the variables that the compiler provides is available in the [Variables](#-variables) section.
-
-<br>
-
 #### 👀 Example
 
-Here's an example of how to transform a common header file to be a reusable, dynamic one:
+Here's an example of how to transform a common header file to a reusable, dynamic one:
 
 <br>
 
@@ -361,7 +357,7 @@ If we were to include this header file via the [`header`](#header) statement in 
 
 Now, let's use meta files and their variables to modify our header file:
 
-`my-header.txt` (**_reusable_**!)
+`my-header.txt` (**_reusable_** !)
 
 ```adblock
 [Adblock Plus 2.0]
@@ -412,9 +408,9 @@ export './popups.txt'
 ! Title: Pop Blocker
 ! Description: Will block popups.
 ##.someclass
+##.annoyance
 ##.someclass
-##.someclass
-##.someclass
+##.xyz
 ##.someclass
 ```
 
