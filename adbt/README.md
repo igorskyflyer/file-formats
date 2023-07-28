@@ -47,20 +47,20 @@
 
 `ADBT` file information:
 
-Type: text
-Extension: `.adbt`
-Encoding: UTF-8
-Line break: LF
+Type: text  
+Extension: `.adbt`  
+Encoding: UTF-8  
+Line break: LF  
 Syntax: custom
 
 <br>
 
 `ADBT meta` file information:
 
-Type: text
-Extension: `.adbm`
-Encoding: UTF-8
-Line break: auto
+Type: text  
+Extension: `.adbm`  
+Encoding: UTF-8  
+Line break: auto  
 Syntax: JSON
 
 ---
