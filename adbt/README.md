@@ -149,6 +149,7 @@ Filter list files are plain text files and although not mandatory, they usually 
 
 The filter list file should contain **only** filter rules, i.e.
 
+`rules.txt`
 ```adblock
 ||somesite.abc^
 ||somesite.abc^
@@ -180,15 +181,16 @@ Accepts: N/A
 
 <br>
 
-Example:
+Example:  
 
+`template.adbt`
 ```shell
 nl
 ```
 
 <br>
 
-The newline will be present in the output filter file. Used to improve readability and/or organize your rules, see [examples](#-examples) below.
+The newline will be present in the output/compiled filter file. Used to improve readability and/or organize your rules, see [examples](#-examples) below.
 
 <br>
 
@@ -196,8 +198,8 @@ The newline will be present in the output filter file. Used to improve readabili
 
 `ADBT` files support two types of comments:
 
-`Internal` &ndash; comments that are only visible in the template file but **are not** exported to the compiled file,  
-`Exported` &ndash; comments that are visible in the template and **are** exported to the compiled file.
+`internal` &ndash; comments that are only visible in the template file but **are not** exported to the compiled file,  
+`exported` &ndash; comments that are visible in the template and **are** exported to the compiled file.
 
 <br>
 
@@ -207,8 +209,9 @@ The newline will be present in the output filter file. Used to improve readabili
 
 <br>
 
-Example:
+Example:  
 
+`template.adbt`
 ```shell
 include './rules/domains.txt'
 @ This is my internal comment
@@ -225,8 +228,9 @@ include './rules/query.txt'
 
 <br>
 
-Example:
+Example:  
 
+`template.adbt`
 ```shell
 include './rules/domains.txt'
 # This will be present in the compiled file
@@ -280,7 +284,7 @@ Continue reading to learn how to use meta file (and other) variables.
 There are 2 types of variables available:
 
 - `meta variables`, template-based, local, stored in a `*.adbt.meta` file,
-- `complier variables`, compiler-based, global, available anywhere in the template file, computed during compile time.
+- `compiler variables`, compiler-based, global, available anywhere in the template file, computed during compile time.
 
 ---
 
