@@ -20,7 +20,7 @@
 - [Meta files](#-meta-files)
 - [Variables](#-variables)
   - [Meta variables](#-meta-variables)
-    - [Examples](#-examples)
+    - [Example](#-example)
 - [Examples](#-examples-1)
 - [Development](#-development)
 - [Related](#-related)
