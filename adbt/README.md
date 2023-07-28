@@ -48,8 +48,6 @@ Line break: LF
 
 ---
 
-<br>
-
 ## ⚙️ File structure
 
 `ADBT` files follow an exact order and rules of their source code, described below:
