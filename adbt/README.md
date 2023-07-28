@@ -47,6 +47,7 @@
 
 `ADBT` file information:
 
+Type: text  
 Extension: `.adbt`  
 Encoding: UTF-8  
 Line break: LF  
@@ -56,6 +57,7 @@ Syntax: custom
 
 `ADBT meta` file information:
 
+Type: text  
 Extension: `.adbt.meta`  
 Encoding: UTF-8  
 Line break: LF  
