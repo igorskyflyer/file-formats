@@ -12,4 +12,4 @@
 
 ## 📄 Drafts
 
-N/A
+Not disclosed at the moment.
