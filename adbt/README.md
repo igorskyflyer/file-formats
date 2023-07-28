@@ -103,7 +103,8 @@ Editing of `ADBT` templates and their complementary meta files is available for 
 - snippets,
 - meta files `*.adbm` support, relies on built-in JSON support:
   - autocomplete (Intellisense),
-  - hover info
+  - hover info,
+- custom file icon.
 
 ---
 
