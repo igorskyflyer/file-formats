@@ -54,13 +54,6 @@
 
 ---
 
-## 📰 Parsing
-
-Parsing and tokenization occur simultaneously in 1 step, line-by-line.  
-Parser will log its steps and progress (needs to enabled in the [`Aria` compiler](https://github.com/igorskyflyer/npm-adblock-aria-compiler/blob/main/README.md) via a flag).
-
----
-
 ## 🧪 Syntax
 
 ### ⚡ Statements
