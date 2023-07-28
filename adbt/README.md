@@ -82,9 +82,7 @@ Accepts: `path: string`
 
 <br>
 
-Example:
-
-<br>
+Example:  
 
 `template.adbt`
 ```shell
