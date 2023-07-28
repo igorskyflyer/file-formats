@@ -309,7 +309,7 @@ Meta files have properties of their own, even though you are already familiar wi
 There are 2 types of variables available:
 
 - `meta variables`, template-based, local, stored in an `*.adbm` file,
-- `compiler variables`, compiler-based, global, available anywhere in the template file, computed during compile time.
+- `compile variables`, compiler-based, global, available anywhere in the template file, computed during compile time.
 
 ---
 
