@@ -280,12 +280,12 @@ This is where _meta files_ come into play. Meta files are complementary files wi
 <br>
 
 Meta files have a special naming convention.
-If you fail to name them properly they won't be recognized by the compiler.
+If you fail to name them properly they won't be recognized by the compiler.  
 Meta files should be named after the `ADBT` template basename, see an example below.
 
 <br>
 
-`ADBT` template name: `my-template.adbt`
+`ADBT` template name: `my-template.adbt`  
 `ADBT` meta file name: `my-template.adbm`
 
 <br>
