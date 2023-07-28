@@ -220,7 +220,7 @@ The newline will be present in the output/compiled filter file. Used to improve 
 
 `ADBT` files support two types of comments:
 
-`internal` &ndash; comments that are only visible in the template file but **are not** exported to the compiled file,
+`internal` &ndash; comments that are only visible in the template file but **are not** exported to the compiled file,  
 `exported` &ndash; comments that are visible in the template and **are** exported to the compiled file.
 
 <br>
