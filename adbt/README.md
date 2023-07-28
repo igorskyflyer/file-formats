@@ -2,7 +2,7 @@
 
 > 🐲 This file contains the specification and documentation of the `ADBT` - Adblock template files. ⚡
 
-<br>
+---
 
 ## 📃 Table of Contents
 
