@@ -443,7 +443,7 @@ export './popups.txt'
 
 ### 💻 Development
 
-Even though technically you can write `ADBT` templates and meta files (`*.adbt.meta`) in any text editor, I highly recommend using [Visual Studio Code](https://code.visualstudio.com/) as your editor.  
+Even though technically you can write `ADBT` (*.adbt) templates and meta files (`*.adbt.meta`) in any text editor, I highly recommend using [Visual Studio Code](https://code.visualstudio.com/) as your editor.  
 <br>
 The development of `ADBT` and its complementary meta files is available for Visual Studio Code via the [ADBT extension](https://marketplace.visualstudio.com/items?itemName=igordvlpr.adbt) and it includes the following features:
 
