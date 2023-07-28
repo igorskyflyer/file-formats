@@ -49,7 +49,8 @@
 
 Extension: `.adbt`  
 Encoding: UTF-8  
-Line break: LF
+Line break: LF  
+Syntax: custom
 
 <br>
 
@@ -58,6 +59,7 @@ Line break: LF
 Extension: `.adbt.meta`  
 Encoding: UTF-8  
 Line break: LF  
+Syntax: JSON
 
 ---
 
