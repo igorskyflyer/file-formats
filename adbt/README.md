@@ -147,7 +147,7 @@ include './rules/query.txt'
 
 Filter list files are plain text files and although not mandatory, they usually end with a `.txt` extension.
 
-The filter list file should contain **only** filter rules, i.e.
+The filter list file should contain **only** filter rules, i.e.:
 
 `rules.txt`
 ```adblock
