@@ -46,9 +46,9 @@ Line break: LF
 - [Development](#-development)
 - [Related](#-related)
 
-<br>
-
 ---
+
+<br>
 
 ## ⚙️ File structure
 
