@@ -399,7 +399,11 @@ Now, the header file has 2 dynamic properties, `title` and `description`. They a
 
 <br>
 
-Here is an example of a reusable header file, a template file and its corresponding meta file and the resulting, compiled filter list file:
+Here is an example of:
+- a reusable header file,
+- a template file
+	- its corresponding meta file,
+- resulting, compiled filter list file
 
 <br>
 
