@@ -45,8 +45,6 @@
 
 ## 🌈 File information
 
-<br>
-
 `ADBT` file information:
 
 Extension: `.adbt`  
