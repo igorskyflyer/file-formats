@@ -39,7 +39,7 @@
 
 `ADBT` files and their compiler `Aria` are Adblock syntax-agnostic, you are free to use any Adblock syntax.  
 
-`ADBT` files can work in conjunction  with optional, complimentary files `*.adbt.meta`.
+`ADBT` files can work in conjunction  with optional, complimentary files `*.adbm`.
 
 ---
 
@@ -58,7 +58,7 @@ Syntax: custom
 `ADBT meta` file information:
 
 Type: text  
-Extension: `.adbt.meta`  
+Extension: `.adbm`  
 Encoding: UTF-8  
 Line break: LF  
 Syntax: JSON
@@ -264,7 +264,7 @@ include './rules/query.txt'
 
 Unfortunately, a common header file most certainly has a property that should be different for every filter list file we compiled, in most cases, at least the `! Title: Filter name` should be different for every filter list file.
 
-This is where _meta files_ come into play. Meta files are complementary files with an extension of `*.adbt.meta` that provide a way of having a dynamic header file that can be reused in all `ADBT` template files. We write placeholders in our common header file that get replaced at compile-time.
+This is where _meta files_ come into play. Meta files are complementary files with an extension of `*.adbm` that provide a way of having a dynamic header file that can be reused in all `ADBT` template files. We write placeholders in our common header file that get replaced at compile-time.
 
 <br>
 
@@ -273,18 +273,18 @@ This is where _meta files_ come into play. Meta files are complementary files wi
 <br>
 
 Meta files have a special naming convention, if you fail to name them properly they won't be recognized by the compiler.
-Meta files should be named after the `ADBT` template basename, see an example below.
+Meta files should be named after the basename (filename without the extension) of the header file that you're including, see an example below.
 
 <br>
 
-`ADBT` template name: `my-filter.adbt`  
-`ADBT` meta file name: `my-filter.adbt.meta`
+Header filename: `my-header.txt`  
+`ADBT` meta filename: `my-header.adbm`
 
 <br>
 
 In a nutshell, meta files' name should be:
 
-> \<templateName\> + ".meta"
+> \<headerName\> + ".adbm"
 
 Meta files have a syntax of their own, even though you are already familiar with its base, JSON (if not, you can learn more [here](https://www.json.org/json-en.html)).  
 
@@ -300,14 +300,14 @@ Meta files have a syntax of their own, even though you are already familiar with
 
 There are 2 types of variables available:
 
-- `meta variables`, template-based, local, stored in a `*.adbt.meta` file,
+- `meta variables`, template-based, local, stored in a `*.adbm` file,
 - `compiler variables`, compiler-based, global, available anywhere in the template file, computed during compile time.
 
 ---
 
 #### 🦠 Meta variables
 
-In its earliest stage, the current properties can be stored in a `*.adbt.meta` file:
+In its earliest stage, the current properties can be stored in a `*.adbm` file:
 
 - `title`,
 - `description`,
@@ -315,7 +315,7 @@ In its earliest stage, the current properties can be stored in a `*.adbt.meta` f
 
 <br>
 
-Each property in the `*.adbt.meta` file has a corresponding placeholder variable that you can use in your header files. Placeholders can have aliases. Placeholders provided by meta files are substituted during compile-time.
+Each property in the `*.adbm` file has a corresponding placeholder variable that you can use in your header files. Placeholders can have aliases. Placeholders provided by meta files are substituted during compile-time.
 
 <br>
 
@@ -407,7 +407,7 @@ export './popups.txt'
 
 <br>
 
-`popups.adbt.meta`
+`popups.adbm`
 
 ```json
 {
@@ -443,7 +443,7 @@ export './popups.txt'
 
 ### 💻 Development
 
-Even though technically you can write `ADBT` (*.adbt) templates and meta files (`*.adbt.meta`) in any text editor, I highly recommend using [Visual Studio Code](https://code.visualstudio.com/) as your editor.  
+Even though technically you can write `ADBT` (*.adbt) templates and meta files (`*.adbm`) in any text editor, I highly recommend using [Visual Studio Code](https://code.visualstudio.com/) as your editor.  
 
 <br>
 
@@ -457,7 +457,7 @@ Editing of `ADBT` and its complementary meta files is available for Visual Studi
   - comments (including comment modifiers, i.e. `TODO`, `FIXME`, `NOTE`),
 - hover information,
 - snippets,
-- meta files `*.adbt.meta` support, relies on built-in JSON support:
+- meta files `*.adbm` support, relies on built-in JSON support:
   - autocomplete (Intellisense),
   - hover info
 
