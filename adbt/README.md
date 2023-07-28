@@ -60,7 +60,7 @@ Syntax: custom
 Type: text  
 Extension: `.adbm`  
 Encoding: UTF-8  
-Line break: LF  
+Line break: auto  
 Syntax: JSON
 
 ---
