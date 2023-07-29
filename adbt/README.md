@@ -496,9 +496,13 @@ Currently, 4 compile-time variables are available:
 
 <br>
 
-Placeholders can have aliases. Placeholders are substituted during compile-time.
+Placeholders can have aliases.  
+Placeholders are substituted during compile-time.  
+Placeholders for compile variables have the following syntax `$placeholder`.
 
-Placeholders for meta variables have the following syntax `$placeholder`.
+<br>
+
+❗ Compile-time variable are computed when compilation is in progress.
 
 <br>
 
@@ -549,11 +553,25 @@ The compiled file `./my-filter-list.txt` will have the following metadata:
 
 #### `version`
 
-Current version of the current `ADBT` file. The actual value depends on the selected [versioning system](#versioning). If one is not provided, the versioning system is inferred.
+Current version of the compiled filter list file. The actual value depends on the selected [versioning system](#versioning). If one is not provided, the versioning system is inferred.
 
 Placeholders: `$version`, `$v`
 
 <br>
+
+#### `entries`
+
+The number of rules in the exported filter list file.
+
+Placeholders: `$entries`, `$count`
+
+<br>
+
+#### `lastModified`
+
+Current date and time formatted as [ISO 8601](https://www.iso.org/iso-8601-date-and-time-format.html)
+
+Placeholders: `$date`, `$now`
 
 ---
 
