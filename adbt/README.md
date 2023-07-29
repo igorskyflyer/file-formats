@@ -382,6 +382,8 @@ Placeholders: N/A
 
 > ❗ Unlike the previous 2 variables, this is a compiler-behaviour variable only, it controls which versioning system to use for the exported filter list file, thus you cannot use it a header file for substitution.
 
+> 💫 Versioning can also be set via the `--versioning` flag of the `Aria` compiler, see the [official documentation](https://github.com/igorskyflyer/npm-adblock-aria-compiler#versioning) of it.
+
 <br>
 
 Available options are:
