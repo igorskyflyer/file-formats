@@ -67,7 +67,8 @@ Syntax: custom
 Type: text  
 Extension: `.adbm`  
 Encoding: UTF-8  
-Line break: editor-dependent (JSON files support both LFs and CRLFs)  
+Line break: editor-dependent  
+> ℹ️ JSON files support both LFs and CRLFs  
 Syntax: JSON
 
 ---
