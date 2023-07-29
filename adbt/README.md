@@ -26,7 +26,9 @@
     - [Example](#-example)
   - [Compile variables](#-compile-variables)
     - [Example](#-example-1)
-- [Examples](#-samples)
+- [Code in Action](#-code-in-action)
+- [Samples](#-samples)
+- [License](#-license)
 - [Related](#-related)
 
 ---
