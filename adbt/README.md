@@ -67,7 +67,7 @@ Line break: LF
 Type: text  
 Extension: `.adbm`  
 Encoding: UTF-8  
-Syntax: JSON
+Syntax: JSON (custom schema)
 Line break: editor-dependent  
 > 💡 JSON files support both LFs and CRLFs
 
