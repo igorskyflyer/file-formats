@@ -51,6 +51,33 @@
 
 ---
 
+## 💻 Development
+
+Even though technically you can write `ADBT` \(`*.adbt`) templates and meta files \(`*.adbm`) in any text editor, I highly recommend using [Visual Studio Code](https://code.visualstudio.com/) as your editor.
+
+<br>
+
+Editing of `ADBT` templates and their complementary meta files is available for Visual Studio Code via the [ADBT extension](https://marketplace.visualstudio.com/items?itemName=igordvlpr.adbt) and it includes the following features:
+
+- high-performance due to small footprint,
+- language support and encoding for `*.adbt` files,
+- syntax highlighting,
+- auto-complete (Intellisense):
+  - functions/statements (including path placeholders),
+  - comments (including comment modifiers, i.e. `TODO`, `FIXME`, `NOTE`),
+- hover information,
+- snippets,
+- meta files `*.adbm` support, relies on built-in JSON support:
+  - autocomplete (Intellisense),
+  - hover info,
+- custom file icon.
+
+---
+
+## 🍭 Quick start
+
+---
+
 ## 🌈 File information
 
 `ADBT` file information:
@@ -71,29 +98,6 @@ Encoding: UTF-8
 Syntax: JSON (custom schema)  
 Line break: editor-dependent  
 > 💡 JSON files support both LFs and CRLFs
-
----
-
-### 💻 Development
-
-Even though technically you can write `ADBT` \(`*.adbt`) templates and meta files \(`*.adbm`) in any text editor, I highly recommend using [Visual Studio Code](https://code.visualstudio.com/) as your editor.
-
-<br>
-
-Editing of `ADBT` templates and their complementary meta files is available for Visual Studio Code via the [ADBT extension](https://marketplace.visualstudio.com/items?itemName=igordvlpr.adbt) and it includes the following features:
-
-- high-performance due to small footprint,
-- language support and encoding for `*.adbt` files,
-- syntax highlighting,
-- auto-complete (Intellisense):
-  - functions/statements (including path placeholders),
-  - comments (including comment modifiers, i.e. `TODO`, `FIXME`, `NOTE`),
-- hover information,
-- snippets,
-- meta files `*.adbm` support, relies on built-in JSON support:
-  - autocomplete (Intellisense),
-  - hover info,
-- custom file icon.
 
 ---
 
