@@ -543,7 +543,15 @@ The compiled file `./my-filter-list.txt` will have the following metadata:
 ! Title: My Filter
 ```
 
-<br> 
+<br>
+
+#### `version`
+
+Current version of the current `ADBT` file. The actual value depends on the selected [versioning system](#versioning). If one is not provided, the versioning system is inferred.
+
+Placeholders: `$version`, `$v`
+
+<br>
 
 ---
 
