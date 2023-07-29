@@ -57,8 +57,8 @@
 Type: text  
 Extension: `.adbt`  
 Encoding: UTF-8  
-Line break: LF  
 Syntax: custom
+Line break: LF  
 
 <br>
 
@@ -67,10 +67,9 @@ Syntax: custom
 Type: text  
 Extension: `.adbm`  
 Encoding: UTF-8  
-Line break: editor-dependent  
-> 💡 JSON files support both LFs and CRLFs  
-
 Syntax: JSON
+Line break: editor-dependent  
+> 💡 JSON files support both LFs and CRLFs
 
 ---
 
