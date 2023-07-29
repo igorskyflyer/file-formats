@@ -553,7 +553,8 @@ The compiled file `./my-filter-list.txt` will have the following metadata:
 
 #### `version`
 
-Current version of the compiled filter list file. The actual value depends on the selected [versioning system](#versioning). If one is not provided, the versioning system is inferred.
+Current version of the compiled filter list file. The actual value depends on the selected [versioning system](#versioning).  
+If one is not provided, the versioning system will be inferred.
 
 Placeholders: `$version`, `$v`
 
