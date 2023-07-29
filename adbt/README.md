@@ -498,7 +498,7 @@ export './my-filter-list.txt'
 
 ---
 
-#### 🍭 Compile variables
+#### 🗜️ Compile variables
 
 Currently, 4 compile-time variables are available:
 
