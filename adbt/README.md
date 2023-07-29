@@ -6,9 +6,9 @@
 
 ## 📃 Table of Contents
 
-- [Introduction](-introduction)
-- [Motivation](-motivation)
-- [File information](-file-information)
+- [Introduction](#-introduction)
+- [Motivation](#-motivation)
+- [File information](#-file-information)
 - [File structure](#%EF%B8%8F-file-structure)
 - [Development](#-development)
 - [Syntax](#-syntax)
