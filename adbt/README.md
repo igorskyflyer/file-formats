@@ -8,9 +8,10 @@
 
 - [Introduction](#-introduction)
 - [Motivation](#-motivation)
+- [Development](#-development)
+- [Quick start](#-quick-start)
 - [File information](#-file-information)
 - [File structure](#%EF%B8%8F-file-structure)
-- [Development](#-development)
 - [Syntax](#-syntax)
   - [Statements](#-statements)
     - [header](#header)
@@ -73,26 +74,6 @@ Line break: editor-dependent
 
 ---
 
-## ⚙️ File structure
-
-`ADBT` files follow an exact order and rules of their source code, described below:
-
-- any line can be blank and all whitespace will be ignored when compiling
-  - an explicit blank line can be used as well,
-- any blank line can contain a comment (either internal or exported)
-  - comments are not allowed to exist on the same line with statements,
-- header files can be included multiple times
-  - preferably, you should only have 1 header file and include it,
-- filter files can be included multiple times,
-- export statement **must** be the last statement of the file
-  - only 1 export statement is allowed per template file
-
-<br>
-
-❗Each `ADBT` template can be compiled to only 1 filter list file.
-
----
-
 ### 💻 Development
 
 Even though technically you can write `ADBT` \(`*.adbt`) templates and meta files \(`*.adbm`) in any text editor, I highly recommend using [Visual Studio Code](https://code.visualstudio.com/) as your editor.
@@ -113,6 +94,26 @@ Editing of `ADBT` templates and their complementary meta files is available for 
   - autocomplete (Intellisense),
   - hover info,
 - custom file icon.
+
+---
+
+## ⚙️ File structure
+
+`ADBT` files follow an exact order and rules of their source code, described below:
+
+- any line can be blank and all whitespace will be ignored when compiling
+  - an explicit blank line can be used as well,
+- any blank line can contain a comment (either internal or exported)
+  - comments are not allowed to exist on the same line with statements,
+- header files can be included multiple times
+  - preferably, you should only have 1 header file and include it,
+- filter files can be included multiple times,
+- export statement **must** be the last statement of the file
+  - only 1 export statement is allowed per template file
+
+<br>
+
+❗Each `ADBT` template can be compiled to only 1 filter list file.
 
 ---
 
