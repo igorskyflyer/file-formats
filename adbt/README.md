@@ -7,6 +7,7 @@
 ## 📃 Table of Contents
 
 - [Introduction](-introduction)
+- [Motivation](-motivation)
 - [File information](-file-information)
 - [File structure](#%EF%B8%8F-file-structure)
 - [Development](#-development)
@@ -24,7 +25,7 @@
     - [Example](#-example)
   - [Compile variables](#-compile-variables)
     - [Example](#-example-1)
-- [Examples](#-examples)
+- [Examples](#-samples)
 - [Related](#-related)
 
 ---
@@ -42,6 +43,10 @@
 `ADBT` files and their compiler `Aria` are Adblock syntax-agnostic, you are free to use any Adblock syntax.
 
 `ADBT` files can work in conjunction with optional, complimentary files `*.adbm`.
+
+---
+
+## 📌 Motivation
 
 ---
 
@@ -576,11 +581,15 @@ Placeholders: `$date`, `$now`
 
 ---
 
-### 💡 Examples
+### 🧠 Code in Action
 
 ---
 
-#### 🧠 Code in Action
+### 💡 Samples
+
+The following sample are available:
+
+
 
 ---
 
