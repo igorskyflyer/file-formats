@@ -619,7 +619,7 @@ Placeholders: `$entries`, `$count`
 
 #### `lastModified: string`
 
-Current date and time formatted as a [ISO 8601](https://www.iso.org/iso-8601-date-and-time-format.html) string.
+Current date and time formatted as an [ISO 8601](https://www.iso.org/iso-8601-date-and-time-format.html) string.
 
 Placeholders: `$date`, `$now`
 
