@@ -81,7 +81,27 @@ Creating and editing `*.adbt` templates and their complementary `*.adbm` meta fi
 - meta files `*.adbm` support, relies on built-in JSON support:
   - autocomplete (Intellisense),
   - hover info,
-- custom file icon.
+- custom file icon.  
+
+To actually compile the templates you need to install the current Node >= 18 (**LTS**) and the [`Aria compiler`](https://www.npmjs.com/package/@igor.dvlpr/aria).  
+
+Install Node by navigating to their [official site](https://nodejs.org/en).  
+
+Install `Aria` by executing any of the following:
+
+Global install
+
+```shell
+npm i -g "@igor.dvlpr/aria"
+```
+
+<br>
+
+Local install
+
+```shell
+npm i "@igor.dvlpr/aria"
+```
 
 ---
 
