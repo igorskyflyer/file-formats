@@ -122,7 +122,7 @@ Line break: editor-dependent
 - any blank line can contain a comment (either internal or exported)
   - comments are not allowed to exist on the same line with statements,
 - all strings, including paths must be enclosed within single quotes
-  - in case of a single quote inside a string, it must be escaped, see [Strings](#-strings) for more information
+  - in case of a single quote inside a string, it must be escaped, see [Strings](#EF%B8%8F-strings) for more information
 - header files can be included multiple times
   - preferably, you should only have 1 header file and include it,
 - filter files can be included multiple times,
