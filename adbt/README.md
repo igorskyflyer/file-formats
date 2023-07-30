@@ -1,10 +1,10 @@
-# 📄 ADBT 🪅
+# ADBT
 
-> 🐲 This file contains the specification and documentation of `ADBT` - Adblock template files. ⚡
+> This file contains the specification and documentation of `ADBT` - Adblock template files.
 
 <br>
 
-## 📃 Table of Contents
+## Table of Contents
 
 - [Introduction](#introduction)
 - [Motivation](#motivation)
@@ -33,7 +33,7 @@
 
 ---
 
-## 📍 Introduction
+## Introduction
 
 `ADBT` files are template files that provide ways of writing reusable, component-like based Adblock filter files.
 
