@@ -29,7 +29,6 @@
 - [Code in Action](#-code-in-action)
 - [Samples](#-samples)
 - [License](#-license)
-- [Built with](#-built-with)
 - [Related](#-related)
 
 ---
