@@ -259,6 +259,8 @@ The newline will be present in the output/compiled filter file. Used to improve 
 
 ### ✒️ Strings
 
+Strings in `ADBT` are UTF-8 encoded and must be enclosed withing single quotes. If a single or multiple single quotes are present in a string, it/they must be escaped with the escape sequence, a backslash followed by a single quote, i.e. `\'`.
+
 ---
 
 ### 📢 Comments
