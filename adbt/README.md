@@ -660,3 +660,6 @@ Licensed under the MIT license which is available here, [MIT license](https://gi
 
 > *🐌 Zing is a C# style String formatter for JavaScript that empowers Strings with positional arguments. 🚀*  
 
+[AdVoid](https://github.com/igorskyflyer/ad-void)  
+
+> *✈ AdVoid is an efficient AdBlock filter that blocks ads, trackers, malware and a lot more if you want it to! 👾*
