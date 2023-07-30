@@ -83,6 +83,8 @@ Creating and editing `*.adbt` templates and their complementary `*.adbm` meta fi
   - hover info,
 - custom file icon.  
 
+<br>
+
 To actually compile the templates you need to install the current Node >= 18 (**LTS**) and the [`Aria compiler`](https://www.npmjs.com/package/@igor.dvlpr/aria).  
 
 Install Node by navigating to their [official site](https://nodejs.org/en).  
