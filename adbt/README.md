@@ -57,7 +57,9 @@ Recognizing this issue, I embarked on a project to develop a custom language, fi
 
 By using `ADBT`, maintainers will be able to incorporate multiple rules into different output filter lists, have the versioning of filter lists done automatically for them, include both internal and exported comments, organize filter lists and filter rules.  
 
-Ultimately, my goal is to empower the Adblock community with an intuitive and user-friendly solution, enhancing the overall ad-blocking experience for everyone.
+Ultimately, my goal is to empower the Adblock community with an intuitive and user-friendly solution, enhancing the overall ad-blocking experience for everyone.  
+
+`ADBT` and its toolchain have also been created to ease the maintenance of my Adblock filter list, [AdVoid](https://github.com/igorskyflyer/ad-void) and `AdVoid` is the first filter list that uses `ADBT` under the hood.
 
 ---
 
