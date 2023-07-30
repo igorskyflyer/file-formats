@@ -405,7 +405,7 @@ Placeholders for meta variables have the following syntax `{placeholder}`.
 
 #### Available meta variables
 
-#### `title`
+#### `title: string`
 
 The title of the filter list.
 
@@ -413,7 +413,7 @@ Placeholder: `{title}`
 
 <br>
 
-#### `description`
+#### `description: string`
 
 The description of the filter list.
 
@@ -421,7 +421,7 @@ Placeholders: `{description}`, `{about}`
 
 <br>
 
-#### `versioning`
+#### `versioning: "auto" | "semver" | "timestamp"`
 
 The versioning system of the filter list.
 
@@ -557,7 +557,7 @@ Placeholders for compile variables have the following syntax `$placeholder`.
 
 #### Available compile variables
 
-#### `file`
+#### `file: string`
 
 Filename of the current `ADBT` file. Useful for giving automatic titles to compiled filter files.
 
@@ -600,7 +600,7 @@ The compiled file `./my-filter-list.txt` will have the following metadata:
 
 <br>
 
-#### `version`
+#### `version: string`
 
 Current version of the compiled filter list file. The actual value depends on the selected [versioning system](#versioning).  
 If one is not provided, the versioning system will be inferred.
@@ -609,7 +609,7 @@ Placeholders: `$version`, `$v`
 
 <br>
 
-#### `entries`
+#### `entries: number`
 
 The number of rules in the exported filter list file.
 
@@ -617,9 +617,9 @@ Placeholders: `$entries`, `$count`
 
 <br>
 
-#### `lastModified`
+#### `lastModified: string`
 
-Current date and time formatted as [ISO 8601](https://www.iso.org/iso-8601-date-and-time-format.html).
+Current date and time formatted as a [ISO 8601](https://www.iso.org/iso-8601-date-and-time-format.html) string.
 
 Placeholders: `$date`, `$now`
 
