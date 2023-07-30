@@ -642,8 +642,21 @@ Licensed under the MIT license which is available here, [MIT license](https://gi
 
 ---
 
-## 🔨 Built with
-
----
-
 ## 🧬 Related
+
+[@igor.dvlpr/adblock-filter-counter](https://www.npmjs.com/package/@igor.dvlpr/adblock-filter-counter)  
+
+> *🐲 A dead simple npm module that counts Adblock filter rules.🦘*  
+
+[@igor.dvlpr/keppo](https://www.npmjs.com/package/@igor.dvlpr/keppo)  
+
+> *🎡 Parse, manage, compare and output SemVer-compatible version numbers. 🧮*
+
+[@igor.dvlpr/normalized-string](https://www.npmjs.com/package/@igor.dvlpr/normalized-string)  
+
+> *💊 NormalizedString provides you with a String type with consistent line-endings, guaranteed. 📮*
+
+[@igor.dvlpr/zing](https://www.npmjs.com/package/@igor.dvlpr/zing)  
+
+> *🐌 Zing is a C# style String formatter for JavaScript that empowers Strings with positional arguments. 🚀*  
+
