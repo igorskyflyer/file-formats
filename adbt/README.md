@@ -8,7 +8,6 @@
 
 - [Introduction](#-introduction)
 - [Motivation](#-motivation)
-- [Development](#-development)
 - [Quick start](#-quick-start)
 - [File information](#-file-information)
 - [File structure](#%EF%B8%8F-file-structure)
@@ -63,13 +62,13 @@ Ultimately, my goal is to empower the Adblock community with an intuitive and us
 
 ---
 
-## 💻 Development
+## 🍭 Quick start
 
 Even though technically you can write `ADBT` \(`*.adbt`) templates and meta files \(`*.adbm`) in any text editor, I highly recommend using [Visual Studio Code](https://code.visualstudio.com/) as your editor.
 
 <br>
 
-Editing of `ADBT` templates and their complementary meta files is available for Visual Studio Code via the [ADBT extension](https://marketplace.visualstudio.com/items?itemName=igordvlpr.adbt) and it includes the following features:
+Creating and editing `*.adbt` templates and their complementary `*.adbm` meta files is available for Visual Studio Code via the [ADBT extension](https://marketplace.visualstudio.com/items?itemName=igordvlpr.adbt) I created and it includes the following features:
 
 - high-performance due to small footprint,
 - language support and encoding for `*.adbt` files,
@@ -83,10 +82,6 @@ Editing of `ADBT` templates and their complementary meta files is available for 
   - autocomplete (Intellisense),
   - hover info,
 - custom file icon.
-
----
-
-## 🍭 Quick start
 
 ---
 
