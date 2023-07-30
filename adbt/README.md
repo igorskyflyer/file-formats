@@ -624,21 +624,25 @@ Placeholders: `$date`, `$now`
 
 ---
 
-### 🧠 Code in Action
+## 🧠 Code in Action
 
 ---
 
-### 💡 Samples
+## 💡 Samples
 
 The following sample are available:
 
 
 ---
 
-### 🪪 License
+## 🪪 License
 
 Licensed under the MIT license, available here [MIT License](https://github.com/igorskyflyer/file-formats/blob/main/adbt/LICENSE).
 
 ---
 
-### 🧬 Related
+## 🔨 Built with
+
+---
+
+## 🧬 Related
