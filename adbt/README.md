@@ -616,6 +616,11 @@ Placeholders: `$date`, `$now`
 The following sample are available:
 
 
+---
+
+### 🪪 License
+
+Licensed under the MIT license, available here [MIT License](https://github.com/igorskyflyer/file-formats/blob/main/adbt/LICENSE).
 
 ---
 
