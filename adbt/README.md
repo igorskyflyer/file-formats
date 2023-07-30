@@ -17,7 +17,7 @@
     - [header](#header)
     - [include](#include)
     - [nl](#nl)
-  - [Strings](#-strings)
+  - [Strings](#%EF%B8%8F-strings)
   - [Comments](#-comments)
     - [Internal](#internal)
     - [Exported](#exported)
