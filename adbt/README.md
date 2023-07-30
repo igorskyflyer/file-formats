@@ -17,6 +17,7 @@
     - [header](#header)
     - [include](#include)
     - [nl](#nl)
+	- [Strings](#-strings)
   - [Comments](#-comments)
     - [Internal](#internal)
     - [Exported](#exported)
@@ -111,6 +112,8 @@ Line break: editor-dependent
   - an explicit blank line can be used as well,
 - any blank line can contain a comment (either internal or exported)
   - comments are not allowed to exist on the same line with statements,
+- all strings, including paths must be enclosed within single quotes
+  - in case of a single quote inside a string, it must be escaped, see [Strings]() for more information
 - header files can be included multiple times
   - preferably, you should only have 1 header file and include it,
 - filter files can be included multiple times,
@@ -177,7 +180,7 @@ Here's an example:
 
 The `header` should be at the top of the `ADBT` template file; comments are allowed before it.
 
-❗Path to the header file to include can be either relative or absolute but must be wrapped by single quotes. Failing to do so, will produce a fatal error.
+❗Path to the header file to include can be either relative or absolute but must be enclosed within single quotes. Failing to do so, will produce a fatal error.
 
 <br>
 
@@ -226,7 +229,7 @@ The filter list file should contain **only** filter rules and Adblock comments, 
 It should **not** include any metadata - that should be included via the [`header`](#header) statement. Doing otherwise will result in metadata conflicts.
 It can contain any valid filter rules and comments.
 
-❗Path to the filter list file to include can be either relative or absolute but must be wrapped by single quotes. Failing to do so, will produce a fatal error.
+❗Path to the filter list file to include can be either relative or absolute but must be enclosed within single quotes. Failing to do so, will produce a fatal error.
 
 <br>
 
@@ -252,7 +255,11 @@ nl
 
 The newline will be present in the output/compiled filter file. Used to improve readability and/or organize your rules, see [examples](#-examples) below.
 
-<br>
+---
+
+### ✒️ Strings
+
+---
 
 ### 📢 Comments
 
