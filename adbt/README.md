@@ -1,39 +1,39 @@
-# ADBT
+# 📄 ADBT 🪅
 
-> This file contains the specification and documentation of `ADBT` - Adblock template files.
+> 🐲 This file contains the specification and documentation of `ADBT` - Adblock template files. ⚡
 
 <br>
 
-## Table of Contents
+## 📃 Table of Contents
 
-- [Introduction](#introduction)
-- [Motivation](#motivation)
-- [Development](#development)
-- [Quick start](#quick-start)
-- [File information](#file-information)
+- [Introduction](#-introduction)
+- [Motivation](#-motivation)
+- [Development](#-development)
+- [Quick start](#-quick-start)
+- [File information](#-file-information)
 - [File structure](#%EF%B8%8F-file-structure)
-- [Syntax](#syntax)
-  - [Statements](#statements)
+- [Syntax](#-syntax)
+  - [Statements](#-statements)
     - [header](#header)
     - [include](#include)
     - [nl](#nl)
-  - [Comments](#comments)
+  - [Comments](#-comments)
     - [Internal](#internal)
     - [Exported](#exported)
-- [Meta files](#meta-files)
-- [Variables](#variables)
-  - [Meta variables](#meta-variables)
-    - [Example](#example)
-  - [Compile variables](#compile-variables)
-    - [Example](#example-1)
-- [Code in Action](#code-in-action)
-- [Samples](#samples)
-- [License](#license)
-- [Related](#related)
+- [Meta files](#-meta-files)
+- [Variables](#-variables)
+  - [Meta variables](#-meta-variables)
+    - [Example](#-example)
+  - [Compile variables](#-compile-variables)
+    - [Example](#-example-1)
+- [Code in Action](#-code-in-action)
+- [Samples](#-samples)
+- [License](#-license)
+- [Related](#-related)
 
 ---
 
-## Introduction
+## 📍 Introduction
 
 `ADBT` files are template files that provide ways of writing reusable, component-like based Adblock filter files.
 
@@ -250,7 +250,7 @@ nl
 
 <br>
 
-The newline will be present in the output/compiled filter file. Used to improve readability and/or organize your rules, see [examples](#examples) below.
+The newline will be present in the output/compiled filter file. Used to improve readability and/or organize your rules, see [examples](#-examples) below.
 
 <br>
 
