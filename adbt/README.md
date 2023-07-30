@@ -56,6 +56,7 @@ Ad-blocking filters have always been a valuable tool to improve web browsing exp
 Recognizing this issue, I embarked on a project to develop a custom language, file format, parser and a Visual Studio Code extension tailored specifically as Adblock templates. My motivation is to offer filter lists creators and maintainers a more straightforward and efficient way to craft filter lists.  
 By using `ADBT`, maintainers will be able to incorporate multiple rules into different output filter lists, have the versioning of filter lists done automatically for them.  
 Ultimately, my goal is to empower the Adblock community with an intuitive and user-friendly solution, enhancing the overall ad-blocking experience for everyone.
+
 ---
 
 ## 💻 Development
