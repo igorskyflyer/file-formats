@@ -6,8 +6,8 @@
 
 ## 🌍 Public
 
-- [`.adbt`](https://github.com/igorskyflyer/file-formats/tree/main/adbt/README.md#readme) - Adblock template file
-- [`.adbm`](https://github.com/igorskyflyer/file-formats/blob/main/adbt/README.md#-meta-files) - Adblock template meta file
+- [`.adbt`](https://github.com/igorskyflyer/file-format-adbt#readme) - Adblock template file
+- [`.adbm`](https://github.com/igorskyflyer/file-format-adbt#-meta-files) - Adblock template meta file
 
 <br>
 
